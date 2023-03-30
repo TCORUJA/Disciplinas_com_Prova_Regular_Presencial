@@ -10,7 +10,7 @@ function buscar() {
         window.alert("Verifique a matricula! \n\nA quantidade de caracteres para matrícula está incorreto.\n Exemplo:\n  \t12345678");
     }
     else if( matriculas.length < 1 ){
-        window.alert("A matrícula inserida não foi encontrada! \n\nFavor pesquisar novamente mais tarde. Ou procurar o setor de atendimento ao aluno");
+        window.alert("A matrícula inserida não foi encontrada! \n\nFavor pesquisar novamente mais tarde e caso queira entre em contato com o setor de atendimento ao aluno no e-mail:\nsuporteonline@unisuam.edu.br");
     }
     
     var validacoes = document.getElementById('validacoes');
